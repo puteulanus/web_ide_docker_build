@@ -376,8 +376,7 @@ libbz2-1.0:amd64 \
 libbz2-dev:amd64 \
 libc-bin \
 libc-dev-bin \
-libc6:amd64 \
-libc6:i386 \
+libc6 \
 libc6-dbg:amd64 \
 libc6-dev:amd64 \
 libcairo-gobject2:amd64 \
@@ -493,8 +492,7 @@ libfribidi0:amd64 \
 libfuse2:amd64 \
 libganymed-ssh2-java \
 libgcc-4.8-dev:amd64 \
-libgcc1:amd64 \
-libgcc1:i386 \
+libgcc1 \
 libgconf-2-4:amd64 \
 libgconf2-4:amd64 \
 libgcrypt11:amd64 \
@@ -538,8 +536,7 @@ libgpgme11:amd64 \
 libgphoto2-6:amd64 \
 libgphoto2-l10n \
 libgphoto2-port10:amd64 \
-libgpm2:amd64 \
-libgpm2:i386 \
+libgpm2 \
 libgraphite2-3:amd64 \
 libgs9 \
 libgs9-common \
@@ -880,8 +877,7 @@ libmpdec2:amd64 \
 libmpfr4:amd64 \
 libmysqlclient-dev \
 libmysqlclient18:amd64 \
-libncurses5:amd64 \
-libncurses5:i386 \
+libncurses5 \
 libncurses5-dev:amd64 \
 libncursesw5:amd64 \
 libnet-dns-perl \
@@ -1043,8 +1039,7 @@ libssl-doc \
 libssl1.0.0:amd64 \
 libstartup-notification0:amd64 \
 libstdc++-4.8-dev:amd64 \
-libstdc++6:amd64 \
-libstdc++6:i386 \
+libstdc++6 \
 libsub-install-perl \
 libsvn-perl \
 libsvn1:amd64 \
@@ -1066,8 +1061,7 @@ libtidy-0.99-0 \
 libtiff5:amd64 \
 libtimedate-perl \
 libtinfo-dev:amd64 \
-libtinfo5:amd64 \
-libtinfo5:i386 \
+libtinfo5 \
 libtk8.6:amd64 \
 libtool \
 libtorque2 \
