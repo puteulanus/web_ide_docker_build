@@ -1,4 +1,4 @@
-FROM ubuntu:lastest
+FROM ubuntu:latest
 
 # Add scripts
 ADD script /tmp/script
