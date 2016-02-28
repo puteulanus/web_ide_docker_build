@@ -1,4 +1,4 @@
-FROM centos:centos6
+FROM ubuntu:lastest
 
 # Add scripts
 ADD script /tmp/script

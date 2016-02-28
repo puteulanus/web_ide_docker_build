@@ -1,5 +1,5 @@
 #!/bin/bash
-pip install
+pip install \
 amqp \
 amqplib \
 anyjson \

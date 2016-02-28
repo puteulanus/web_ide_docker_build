@@ -1,6 +1,6 @@
 #/bin/bash
 
-apt-get install -y
+apt-get install -y \
 ack-grep \
 acl \
 adduser \
