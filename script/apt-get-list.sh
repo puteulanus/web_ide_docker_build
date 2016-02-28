@@ -1582,3 +1582,9 @@ xz-utils \
 zip \
 zlib1g:amd64 \
 zlib1g-dev:amd64
+
+# Install cf-cli
+#apt-get install ruby
+#gem install cf
+
+# Install dropbox
