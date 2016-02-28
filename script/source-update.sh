@@ -10,11 +10,11 @@ deb http://cz.archive.ubuntu.com/ubuntu trusty main
 _EOF_
 cp -f /etc/apt/sources.list /etc/apt/sources.list.save
 mv /tmp/script/apt/sources-list/* /etc/apt/sources.list.d/
+apt-get update
 
 apt-get install -y software-properties-common
 add-apt-repository ppa:ubuntu-toolchain-r/test
-
 apt-get update
 
-# Install pip
-apt-get install python-pip -y
+# Install tools
+apt-get install python-pip wget -y

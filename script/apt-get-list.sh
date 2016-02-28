@@ -1,5 +1,10 @@
 #/bin/bash
 
+# Install cf-cli
+wget -O /tmp/cf.deb 'https://cli.run.pivotal.io/stable?release=debian64&source=github'
+dpkg -i /tmp/cf.deb
+rm -f /tmp/cf.deb
+
 apt-get install -y \
 ack-grep \
 acl \
@@ -1582,8 +1587,3 @@ xz-utils \
 zip \
 zlib1g:amd64 \
 zlib1g-dev:amd64
-
-# Install cf-cli
-wget -O /tmp/cf.deb 'https://cli.run.pivotal.io/stable?release=debian64&source=github'
-dpkg -i /tmp/cf.deb
-rm -f /tmp/cf.deb
