@@ -145,10 +145,8 @@ g++-4.8 \
 gawk \
 gcc \
 gcc-4.8 \
-gcc-4.8-base:amd64 \
-gcc-4.8-base:i386 \
-gcc-4.9-base:amd64 \
-gcc-4.9-base:i386 \
+gcc-4.8-base \
+gcc-4.9-base \
 gconf-service \
 gconf-service-backend \
 gconf2 \
