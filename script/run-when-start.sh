@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Install supervisor
-yum install python-setuptools -y
-easy_install supervisor
+pip install supervisor
 
 # Configure
 mkdir /etc/supervisord.d

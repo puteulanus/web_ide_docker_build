@@ -1,4 +1,7 @@
 #!/bin/bash
 
 # Update
-yum update -y
+apt-get update
+
+# Install pip
+apt-get install python-pip -y
