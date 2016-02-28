@@ -1584,7 +1584,6 @@ zlib1g:amd64 \
 zlib1g-dev:amd64
 
 # Install cf-cli
-#apt-get install ruby
-#gem install cf
-
-# Install dropbox
+wget -O /tmp/cf.deb 'https://cli.run.pivotal.io/stable?release=debian64&source=github'
+dpkg -i /tmp/cf.deb
+rm -f /tmp/cf.deb
