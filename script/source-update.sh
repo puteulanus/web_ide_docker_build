@@ -11,6 +11,7 @@ _EOF_
 cp -f /etc/apt/sources.list /etc/apt/sources.list.save
 mv /tmp/script/apt/sources-list/* /etc/apt/sources.list.d/
 
+apt-get install -y software-properties-common
 add-apt-repository ppa:ubuntu-toolchain-r/test
 
 apt-get update
