@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt-get install ruby2.3 ruby2.3-dev
+
 gem install \
 actionmailer \
 actionpack \
