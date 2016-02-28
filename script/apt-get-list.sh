@@ -1,11 +1,11 @@
 #/bin/bash
 
 # Install cf-cli
-wget -O /tmp/cf.deb 'https://cli.run.pivotal.io/stable?release=debian64&source=github'
+wget -qO /tmp/cf.deb 'https://cli.run.pivotal.io/stable?release=debian64&source=github'
 dpkg -i /tmp/cf.deb
 rm -f /tmp/cf.deb
 
-apt-get install -y \
+apt-get install -y --force-yes \
 ack-grep \
 acl \
 adduser \
