@@ -2,7 +2,7 @@
 
 apt-get install -y ruby ruby2.3 ruby2.3-dev
 
-gem install \
+gem2.3 install \
 actionmailer \
 actionpack \
 actionview \
