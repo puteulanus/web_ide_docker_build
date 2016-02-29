@@ -1470,9 +1470,6 @@ resolvconf \
 rhino \
 rsync \
 rsyslog \
-#ruby \
-#ruby1.9.1 \
-#ruby1.9.1-dev \
 runit \
 sed \
 sensible-utils \

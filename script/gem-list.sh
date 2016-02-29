@@ -69,3 +69,5 @@ test-unit \
 thor \
 thread_safe \
 tzinfo
+
+apt-get install -y ruby ruby1.9.1 ruby1.9.1-dev 
