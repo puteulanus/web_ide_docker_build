@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install -y ruby ruby2.3
+apt-get install -y ruby ruby2.3 ruby2.3-dev
 
 gem install \
 actionmailer \

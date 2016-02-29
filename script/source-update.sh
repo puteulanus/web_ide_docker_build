@@ -13,7 +13,7 @@ mv /tmp/script/apt/sources-list/* /etc/apt/sources.list.d/
 apt-get update
 
 apt-get install -y software-properties-common
-apt-add-repository ppa:brightbox/ruby-ng
+apt-add-repository -y ppa:brightbox/ruby-ng
 #add-apt-repository ppa:ubuntu-toolchain-r/test
 apt-get update
 
