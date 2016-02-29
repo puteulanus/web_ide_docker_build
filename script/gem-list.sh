@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install -y ruby2.3 ruby2.3-dev
+apt-get install -y ruby ruby2.3
 
 gem install \
 actionmailer \
@@ -69,5 +69,3 @@ test-unit \
 thor \
 thread_safe \
 tzinfo
-
-apt-get install -y ruby ruby1.9.1 ruby1.9.1-dev 
