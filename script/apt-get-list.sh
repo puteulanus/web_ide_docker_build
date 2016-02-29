@@ -1036,10 +1036,10 @@ libsqlite3-dev:amd64 \
 libss2:amd64 \
 libssl-dev:amd64 \
 libssl-doc \
-libssl1.0.0:amd64 \
+libssl1.0.0=1.0.1f-1ubuntu2.16 \
 libstartup-notification0:amd64 \
 libstdc++-4.8-dev:amd64 \
-libstdc++6 \
+libstdc++6=4.8.4-2ubuntu1~14.04 \
 libsub-install-perl \
 libsvn-perl \
 libsvn1:amd64 \
