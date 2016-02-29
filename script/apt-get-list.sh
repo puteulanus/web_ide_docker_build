@@ -146,7 +146,6 @@ gawk \
 gcc \
 gcc-4.8 \
 gcc-4.8-base=4.8.4-2ubuntu1~14.04 \
-gcc-4.8-base=4.8.4-2ubuntu1~14.04.1 \
 gcc-4.9-base \
 gconf-service \
 gconf-service-backend \
@@ -377,7 +376,7 @@ libbz2-1.0:amd64 \
 libbz2-dev:amd64 \
 libc-bin \
 libc-dev-bin \
-libc6 \
+libc6=2.19-0ubuntu6.6 \
 libc6-dbg:amd64 \
 libc6-dev:amd64 \
 libcairo-gobject2:amd64 \
