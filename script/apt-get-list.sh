@@ -145,7 +145,7 @@ g++-4.8 \
 gawk \
 gcc \
 gcc-4.8 \
-gcc-4.8-base=4.8.4-2ubuntu1 \
+gcc-4.8-base=4.8.4-2ubuntu1~14.04 \
 gcc-4.9-base \
 gconf-service \
 gconf-service-backend \
