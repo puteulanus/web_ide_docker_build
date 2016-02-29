@@ -6,14 +6,14 @@ ADD script /tmp/script
 # Update sources
 RUN bash /tmp/script/source-update.sh
 
-# Install gem list
-RUN bash /tmp/script/gem-list.sh
-
 # Install apt list
 RUN bash /tmp/script/apt-get-list.sh
 
 # Install pip list
 RUN bash /tmp/script/pip-list.sh
+
+# Install gem list
+RUN bash /tmp/script/gem-list.sh
 
 # Setup Startup
 RUN bash /tmp/script/run-when-start.sh
